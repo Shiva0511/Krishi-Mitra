@@ -1,0 +1,811 @@
+.f-r-a-m-e-line-frame-child {
+  align-self: stretch;
+  height: 73px;
+  position: relative;
+  background-color: var(--color-honeydew);
+  display: none;
+}
+.line-separator1 {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.home3,
+.line-separator1,
+.logo-3-icon3 {
+  position: relative;
+  z-index: 1;
+}
+.logo-3-icon3 {
+  height: 59px;
+  width: 311px;
+  object-fit: cover;
+}
+.home3 {
+  align-self: stretch;
+  background: linear-gradient(180deg, #0ff084, #f1be0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+.back-rectangle2 {
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.equipment3 {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  background: linear-gradient(180deg, #0ff084, #f1be0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.frame-rectangle,
+.logo-rectangle3 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-rectangle {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.logo-rectangle3 {
+  width: 300px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.home-text1,
+.product-logo-rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.home-text1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.product-logo-rectangle {
+  width: 888px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.f-r-a-m-e-frame {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.f-r-a-m-e-line-frame {
+  align-self: stretch;
+  height: 73px;
+  background-color: var(--color-honeydew);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inria-sans);
+}
+.back-icon2 {
+  height: 30px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.equipments-details2 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 184px;
+}
+.send-request-text1 {
+  width: 363px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 20px;
+  max-width: 100%;
+}
+.equipment-name2 {
+  position: relative;
+}
+.brand-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-802xl);
+}
+.trailer-info-text-child {
+  height: 501px;
+  width: 568px;
+  position: relative;
+  object-fit: cover;
+  min-height: 501px;
+  max-width: 100%;
+}
+.frame-within-frame,
+.frame-within-frame1,
+.trailer-label-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-within-frame,
+.frame-within-frame1 {
+  align-self: stretch;
+  max-height: 100%;
+}
+.trailer-label-icon {
+  height: 142px;
+}
+.frame-nesteqq-b,
+.frame-nesting {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-nesteqq-b {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.frame-nesting {
+  height: 498px;
+  width: 188px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 36px 0;
+  min-width: 188px;
+}
+.brand-jhon-deere,
+.trailer1 {
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.trailer1 {
+  width: 235px;
+  height: 20px;
+  position: relative;
+  flex-shrink: 0;
+}
+.brand-jhon-deere {
+  width: 293px;
+  height: 41px;
+  white-space: pre-wrap;
+}
+.brand-jhon-deere,
+.day2,
+.fare2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.fare2 {
+  height: 19.6px;
+  width: 77.9px;
+  display: inline-block;
+}
+.day2 {
+  flex: 1;
+}
+.price-amount {
+  width: 244px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 12.1px;
+}
+.description3 {
+  width: 139px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.description3,
+.implement-power-402 {
+  position: relative;
+}
+.implement-power-40-hp-capaci-wrapper,
+.navghar-bhyinder-east-text1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.implement-power-40-hp-capaci-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-xl);
+}
+.navghar-bhyinder-east-text1 {
+  flex-direction: column;
+  gap: 5px 0;
+}
+.address2 {
+  position: relative;
+}
+.product-location-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.navghar-bhyinder-east2 {
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.details-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 8px 0;
+}
+.description-box {
+  gap: 32.5px 0;
+  font-size: var(--font-size-5xl);
+}
+.brand-jhon-deere-parent,
+.description-box,
+.frame-nesting-e {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.brand-jhon-deere-parent {
+  gap: 29px 0;
+  font-size: var(--font-size-6xl);
+}
+.frame-nesting-e {
+  gap: 49px 0;
+}
+.frame-child4 {
+  height: 66px;
+  width: 241px;
+  position: relative;
+  background-color: var(--color-honeydew);
+  display: none;
+}
+.send-request2 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inria-sans);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.group-div {
+  background-color: var(--color-honeydew);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-31xl) var(--padding-lgi)
+    var(--padding-27xl);
+  white-space: nowrap;
+}
+.frame-nesting-d,
+.group-div,
+.product-frame,
+.product-frame-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.product-frame-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-xl) 0 0;
+  background-color: transparent;
+  flex-direction: row;
+}
+.frame-nesting-d,
+.product-frame {
+  flex-direction: column;
+}
+.product-frame {
+  align-self: stretch;
+  gap: 76px 0;
+}
+.frame-nesting-d {
+  width: 340px;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 340px;
+  max-width: 100%;
+}
+.address-text4,
+.trailer-info-text {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.address-text4 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 428px;
+  gap: var(--gap-xl);
+}
+.trailer-info-text {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0 19px;
+}
+.address-text3,
+.subgroup-frame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.subgroup-frame {
+  width: 1265px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: 14px 0;
+}
+.address-text3 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.group-parent-frame,
+.request-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.group-parent-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 45px 0;
+}
+.request-frame {
+  width: 1336px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs) 72px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-inria-sans);
+}
+.frame-child5 {
+  width: 1443px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  max-height: 100%;
+}
+.feedback-form-logo1,
+.logo-4-icon3 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.feedback-form-logo1 {
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.logo-4-icon3 {
+  height: 50.6px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.kisan-hai-to3 {
+  position: relative;
+  background: linear-gradient(180deg, #0ff084, #f1be0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.kisan-hai-to-hum-hai {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl) 0 41.69999999999891px;
+  margin-top: -1.1px;
+}
+.feedback-section-line,
+.feedback-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.feedback-section-line {
+  align-self: stretch;
+}
+.feedback-section1 {
+  flex: 1;
+  padding: 0 0 13.200000000000044px;
+}
+.instagram-rectangle1 {
+  height: 99px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.brand-logo-rectangle {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 23.9px;
+  min-width: 176px;
+}
+.here3,
+.please-provide-us3 {
+  position: relative;
+  background: linear-gradient(180deg, #0ff084, #f1be0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+/* .please-provide-us3 {
+  align-self: stretch;
+  background: linear-gradient(180deg, #0ff084, #f1be0d);
+} */
+.here3 {
+  text-decoration: underline;
+  position: relative;
+  background: linear-gradient(180deg, #0ff084, #f1be0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  z-index: 2;
+}
+.instagram-rectangle2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-9xl);
+}
+.frame-with-line-and-text {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 25px 0;
+}
+.frame-with-line-and-text,
+.git-hub-rectangle1,
+.send-request-text2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.git-hub-rectangle1 {
+  width: 199.4px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.send-request-text2 {
+  flex: 1;
+  flex-direction: row;
+  gap: 0 65.6px;
+  max-width: 100%;
+}
+.main-content-frame {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.group-containing-logo-and-mess {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 4.399999999999864px;
+}
+.give-us-a3 {
+  position: relative;
+  background: linear-gradient(180deg, #0ff084, #f1be0d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.social-media-links1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 9.200000000000728px;
+}
+.twitter-icon3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.follow-us-on-social-media {
+  height: 56.1px;
+  width: 59.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+  box-sizing: border-box;
+}
+.github-icon3,
+.instagram-icon3 {
+  height: 61.6px;
+  width: 64.6px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.github-icon3 {
+  width: 57.3px;
+  height: 52.8px;
+}
+.feedback-section2,
+.git-hub-icon {
+  display: flex;
+  align-items: flex-start;
+}
+.git-hub-icon {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 4.399999999999864px 0 0;
+}
+.feedback-section2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-with-logo-and-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13.2px 0;
+}
+.git-hub-rectangle2 {
+  height: 103.4px;
+  width: 261.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 26px;
+  min-width: 261.7000000000007px;
+}
+.feedback-request-line,
+.follow-social-media-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.follow-social-media-frame {
+  width: 875.8px;
+  justify-content: flex-start;
+  gap: 0 78.1px;
+}
+.feedback-request-line {
+  width: 1402.8px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.feedback-form-logo-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 18.4px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inria-sans);
+  background-color: #d8f5de;
+}
+.product-frame1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.group-section,
+.product-details2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.group-section {
+  align-self: stretch;
+  padding: var(--padding-12xs) 0 0.09999999999990904px;
+  gap: var(--gap-2xs-2);
+  max-width: 100%;
+}
+.product-details2 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-lgi) 0 0.900000000000091px;
+  gap: 46px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .brand-frame {
+    padding-left: var(--padding-391xl);
+    box-sizing: border-box;
+  }
+  .trailer-info-text-child {
+    flex: 1;
+  }
+  .trailer-info-text {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .equipments-details2 {
+    font-size: var(--font-size-7xl);
+  }
+  .equipment-name2,
+  .trailer1 {
+    font-size: var(--font-size-5xl);
+  }
+  .git-hub-rectangle2 {
+    flex: 1;
+  }
+  .follow-social-media-frame {
+    flex-wrap: wrap;
+    gap: 0 39px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .brand-frame {
+    padding-left: var(--padding-186xl);
+    box-sizing: border-box;
+  }
+  .frame-nesting,
+  .frame-nesting-d {
+    flex: 1;
+  }
+  .address-text4 {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .group-parent-frame {
+    gap: 22px 0;
+  }
+  .request-frame {
+    padding-bottom: 47px;
+    box-sizing: border-box;
+  }
+  .send-request-text2 {
+    flex-wrap: wrap;
+    gap: 0 33px;
+  }
+  .product-details2 {
+    gap: 23px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .equipments-details2 {
+    font-size: var(--font-size-lgi);
+  }
+  .equipment-name2 {
+    font-size: var(--font-size-lg);
+  }
+  .brand-frame {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .trailer1 {
+    font-size: var(--font-size-lg);
+  }
+  .brand-jhon-deere {
+    font-size: var(--font-size-xl);
+  }
+  .day2,
+  .description3,
+  .fare2 {
+    font-size: var(--font-size-lgi);
+  }
+  .implement-power-402 {
+    font-size: var(--font-size-base);
+  }
+  .address2 {
+    font-size: var(--font-size-lgi);
+  }
+  .navghar-bhyinder-east2 {
+    font-size: var(--font-size-base);
+  }
+  .description-box {
+    gap: 16px 0;
+  }
+  .frame-nesting-e {
+    gap: 24px 0;
+  }
+  .product-frame {
+    gap: 38px 0;
+  }
+  .frame-nesting-d {
+    min-width: 100%;
+  }
+  .send-request-text2 {
+    gap: 0 16px;
+    min-width: 100%;
+  }
+  .follow-social-media-frame {
+    gap: 0 20px;
+  }
+}

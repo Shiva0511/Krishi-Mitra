@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./request-form-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tiro Devanagari Hindi:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="request-form-page">
+      <header class="input-form-frame">
+        <div class="input-form-frame-child"></div>
+        <div class="logo-frame1"></div>
+        <div class="home-text-frame">
+          <div class="equipment-text-frame">
+            <img
+              class="logo-3-icon4"
+              loading="lazy"
+              alt=""
+              src="./public/logo-3@2x.png"
+            />
+
+            <div class="enter-last-name-group">
+              <div class="address-group-text-frame">
+                <div class="contact-no-group-text-frame">
+                  <b class="home4" id="homeText">Home</b>
+                </div>
+                <h3 class="equipment4" id="equipmentText">Equipment</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="logo-frame2"></div>
+      </header>
+      <div class="last-name-frame">
+        <h1 class="enter-your-details">Enter Your Details</h1>
+      </div>
+      <div class="give-us-follow-frame">
+        <form action="request.php" method="POST">
+          <div class="last-name-input-field">
+            <div class="address-input-field">
+              <div class="rectangle-parent1">
+                <div class="frame-child6"></div>
+                <input
+                  class="enter-first-name"
+                  type="text"
+                  name="firstname"
+                  placeholder="Enter First Name"
+                  id="fname"
+                />
+              </div>
+              <div class="rectangle-parent2">
+                <div class="frame-child7"></div>
+                <!-- <div class="enter-last-name">Enter Last Name</div> -->
+                <input
+                  class="enter-last-name"
+                  type="text"
+                  placeholder="Enter Last Name"
+                  name="lastname"
+                  id="lname"
+                />
+              </div>
+            </div>
+            <div class="frame-enter-address">
+              <textarea
+                class="frame-enter-address-child"
+                placeholder="Enter Address Here"
+                rows="7"
+                cols="33"
+                name="address"
+                id="address"
+              ></textarea>
+            </div>
+            <div class="rectangle-parent3">
+              <!-- <div class="frame-child8"></div> -->
+              <!-- <div class="enter-contact-no">Enter Contact No</div> -->
+              <input
+                type="int"
+                minlength="10"
+                maxlength="10"
+                class="enter-contact-no"
+                name="phoneno"
+                id="contactno"
+                placeholder="Enter Phone No"
+              />
+            </div>
+            <button class="rectangle-parent4" onclick="sendSMS()">
+              <div class="frame-child9"></div>
+              <b class="submit-request">Submit Request</b>
+            </button>
+          </div>
+        </form>
+      </div>
+      <footer class="frame-parent6">
+        <img class="frame-child10" alt="" src="./public/group-102.svg" />
+
+        <div class="kisan-hai-to-hum-hai-text-fram">
+          <div class="footer-line">
+            <div class="feedback-text-frame1">
+              <img
+                class="logo-4-icon4"
+                loading="lazy"
+                alt=""
+                src="./public/logo-4@2x.png"
+              />
+
+              <div class="kisan-hai-to-hum-hai-wrapper">
+                <div class="kisan-hai-to4">Kisan Hai To Hum Hai</div>
+              </div>
+            </div>
+          </div>
+          <div class="follow-us-group"></div>
+        </div>
+        <div class="follow-us-frames-group">
+          <div class="twitter-frame">
+            <div class="please-provide-us4">Please provide us Feedback </div>
+            <div class="here-wrapper">
+              <div class="here4" id="hEREText">HERE</div>
+            </div>
+          </div>
+        </div>
+        <div class="new-input-form-group-frame">
+          <div class="new-input-form-group-frame-inner">
+            <div class="frame-child11"></div>
+          </div>
+          <div class="frame-parent7">
+            <div class="give-us-a-follow-on-social-med-wrapper">
+              <div class="give-us-a4">Give us a follow on social media</div>
+            </div>
+            <div class="frame-parent8">
+              <div class="twitter-wrapper">
+                <img
+                  class="twitter-icon4"
+                  loading="lazy"
+                  alt=""
+                  src="./public/twitter@2x.png"
+                  id="twitterImage"
+                />
+              </div>
+              <img
+                class="instagram-icon4"
+                loading="lazy"
+                alt=""
+                src="./public/instagram@2x.png"
+                id="instagramImage"
+              />
+
+              <div class="github-container">
+                <img
+                  class="github-icon4"
+                  loading="lazy"
+                  alt=""
+                  src="./public/github@2x.png"
+                  id="gitHubImage"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="testing.js"></script>
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+
+      var equipmentText = document.getElementById("equipmentText");
+      if (equipmentText) {
+        equipmentText.addEventListener("click", function (e) {
+          window.location.href = "./equipment.html";
+        });
+      }
+
+      var hEREText = document.getElementById("hEREText");
+      if (hEREText) {
+        hEREText.addEventListener("click", function () {
+          window.open(
+            "https://docs.google.com/forms/d/e/1FAIpQLSei9p3JwNZYq_ApTnrrU551cTnIVWGTAY1vZBKlhk2Q-bXK1w/viewform?usp=sf_link"
+          );
+        });
+      }
+
+      var twitterImage = document.getElementById("twitterImage");
+      if (twitterImage) {
+        twitterImage.addEventListener("click", function () {
+          window.open("https://twitter.com/Shivams2003");
+        });
+      }
+
+      var instagramImage = document.getElementById("instagramImage");
+      if (instagramImage) {
+        instagramImage.addEventListener("click", function () {
+          window.open("https://www.instagram.com/mr.shivam0512/");
+        });
+      }
+
+      var gitHubImage = document.getElementById("gitHubImage");
+      if (gitHubImage) {
+        gitHubImage.addEventListener("click", function () {
+          window.open("https://github.com/Shiva9021");
+        });
+      }
+    </script>
+  </body>
+</html>
